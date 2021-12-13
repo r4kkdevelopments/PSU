@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "psu-rebirth/1.0.0": {
+        "dependencies": {
+          "MoonSharp": "2.0.0",
+          "Unleash.Client": "1.6.1"
+        },
+        "runtime": {
+          "psu-rebirth.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {},
+      "MoonSharp/2.0.0": {
+        "runtime": {
+          "lib/netstandard1.6/MoonSharp.Interpreter.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "murmurhash/1.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/MurmurHash.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Unleash.Client/1.6.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "murmurhash": "1.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unleash.Client.dll": {
+            "assemblyVersion": "1.6.1.0",
+            "fileVersion": "1.6.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "psu-rebirth/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "MoonSharp/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uiAcRh7d+53k3xW9pFDJfAFVw4RnjHVCJG05M3oPAVEVwPtFavhg1H/IpC6So4X1j9kJlzuLlA3OghhPcIvc5A==",
+      "path": "moonsharp/2.0.0",
+      "hashPath": "moonsharp.2.0.0.nupkg.sha512"
+    },
+    "murmurhash/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-56dW8jgSsvGs/tULn+r1UbS+o0rBvgMj+6Lta6uao4j8Kzx1kVxMf56LPKO070VqjWcGyMB4K4R6M4gVKutG9A==",
+      "path": "murmurhash/1.0.3",
+      "hashPath": "murmurhash.1.0.3.nupkg.sha512"
+    },
+    "Unleash.Client/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7o3OoOEg25sEZz0wTgksqHx/IqP4ue7esM4AXA2w7PhAL2V7S3U/rFH2h5HfgqMziM5b/dzOLEwue1Osh65uKQ==",
+      "path": "unleash.client/1.6.1",
+      "hashPath": "unleash.client.1.6.1.nupkg.sha512"
+    }
+  }
+}

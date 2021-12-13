@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "sjaSlkV2gX7wgZuvFzVMBnKjaRzGPxBS2/0OM6plL+RC5mb7G+e4U2fIab0BWlfiLaQ77vYEK14QrxDzC1JiKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maple\\source\\repos\\psu-rebirth\\psu-cli\\psu-cli.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maple\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\maple\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\maple\\.nuget\\packages\\moonsharp\\2.0.0\\moonsharp.2.0.0.nupkg.sha512",
+    "C:\\Users\\maple\\.nuget\\packages\\murmurhash\\1.0.3\\murmurhash.1.0.3.nupkg.sha512",
+    "C:\\Users\\maple\\.nuget\\packages\\nstack.core\\0.16.0\\nstack.core.0.16.0.nupkg.sha512",
+    "C:\\Users\\maple\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\maple\\.nuget\\packages\\terminal.gui\\1.1.1\\terminal.gui.1.1.1.nupkg.sha512",
+    "C:\\Users\\maple\\.nuget\\packages\\unleash.client\\1.6.1\\unleash.client.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

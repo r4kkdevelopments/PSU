@@ -1,0 +1,12 @@
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\bin\Debug\net5.0\psu-rebirth.deps.json
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\bin\Debug\net5.0\psu-rebirth.dll
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\bin\Debug\net5.0\ref\psu-rebirth.dll
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\bin\Debug\net5.0\psu-rebirth.pdb
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\psu-rebirth.csprojAssemblyReference.cache
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\psu-rebirth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\psu-rebirth.AssemblyInfoInputs.cache
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\psu-rebirth.AssemblyInfo.cs
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\psu-rebirth.csproj.CoreCompileInputs.cache
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\psu-rebirth.dll
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\ref\psu-rebirth.dll
+C:\Users\maple\source\repos\psu-rebirth\psu-rebirth\obj\Debug\net5.0\psu-rebirth.pdb
