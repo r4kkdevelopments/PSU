@@ -1,0 +1,168 @@
+.card {
+  /* background-image: linear-gradient(
+    225deg,
+    rgba(30, 30, 30, 1),
+    rgba(10, 10, 10, 1)
+  ); */
+  min-width: 375px;
+  max-width: 375px;
+  /* min-height: 600px; */
+  padding-bottom: 20px;
+  /* -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75); */
+  border: 2px solid #202020;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #46e393;
+}
+
+.card img {
+  margin-top: 20px;
+  max-width: 128px;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.left {
+  height: 100%;
+  width: 500px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to bottom,
+    rgba(32, 102, 66, 0.8),
+    rgba(13, 48, 30, 0.8)
+  ),
+  url(../public/coding2.jpg);
+  background-size: cover;
+}
+
+.left img {
+  max-width: 128px;
+}
+
+.left h1 {
+  color: #46e393;
+  font-size: 2.5rem;
+}
+
+.left p {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.centre {
+  width: calc(100% - 500px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centre img {
+  max-width: 128px;
+}
+
+.centre h1 {
+  color: #46e393;
+  font-size: 2.5rem;
+}
+
+.centre h2 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.centre form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.centre form p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.centre form a {
+  font-size: 1.15rem;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  color: #46e393;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.centre input {
+  background: #151515;
+  border: 1px solid #202020;
+  border-radius: 6px;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  box-sizing: border-box;
+  transition: .2s ease;
+  outline: none;
+  padding-left: 10px;
+}
+
+.centre > input::placeholder {
+  color: #fff;
+}
+
+.centre input:active {
+  transition: .2s ease;
+  border: 1px solid rgba(70, 227, 147, 0.6);
+}
+
+.centre input:focus {
+  transition: .2s ease;
+  border: 1px solid rgba(70, 227, 147, 0.6);
+}
+
+.centre input:focus-within {
+  transition: .2s ease;
+  border: 1px solid rgba(70, 227, 147, 0.6);
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+  }
+
+  .centre {
+    margin-top: 400px;
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  .container {
+    flex-direction: column;
+
+  }
+}
